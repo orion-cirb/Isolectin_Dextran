@@ -1,4 +1,4 @@
-# Isolectin_dextran
+# Isolectin_Dextran
 
 * **Developed for:** Iris
 * **Team:** Germain
@@ -7,7 +7,7 @@
 
 ### Images description
 
-2D images taken with a x20 objective
+2D images of sections of mouse heart taken with a x20 objective.
 
 2 channels:
   1. *CSU_561:* Dextran
@@ -15,10 +15,10 @@
 
 ### Macro description
 
-* Detect Isolectin after guassian blur with threshold
-* Fill with black isolectin mask in dextran channel
+* Detect vessels in isolectin channel with gaussian blur + threshold
+* Fill with dark isolectin mask in dextran channel
 * Detect dextran with threshold
-* Give isolectin, dextran areas and area ratio
+* Give isolectin and dextran masks areas + areas ratio
 
 ### Version history
 

@@ -10,10 +10,8 @@
 2D images taken with a x20 objective
 
 2 channels:
-  1. *CSU_405:* DAPI nuclei
-  2. *CSU_491:* ???
-  3. *CSU_561:* Dextran
-  4. *CSU_635:* Isolectin
+  1. *CSU_561:* Dextran
+  2. *CSU_635:* Isolectin
 
 ### Macro description
 
@@ -24,4 +22,4 @@
 
 ### Version history
 
-Version 1 released on May 24, 2023.
+Version 1 released on May 30, 2023.

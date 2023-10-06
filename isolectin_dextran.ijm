@@ -38,7 +38,7 @@ for (i = 0; i < list.length; i++) {
   	  	setAutoThreshold("Huang dark");
   	  	setOption("BlackBackground", false);
 		run("Convert to Mask");
-		List.setMeasurements;
+		List.setMeasurements();
 		vesselsArea =  List.getValue("Area");
 		vesselsAreaPercentage = List.getValue("%Area");
 		run("Create Selection");

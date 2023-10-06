@@ -15,10 +15,10 @@
 
 ### Macro description
 
-* Detect vessels in isolectin channel with gaussian blur + threshold
-* Fill with dark isolectin mask in dextran channel
-* Detect dextran with threshold
-* Give isolectin and dextran masks areas + areas ratio
+* Detect vessels in isolectin channel with Gaussian blur filtering + Huang thresholding
+* Fill in dark isolectin mask in dextran channel
+* Detect extravasated dextran in dextran channel with Gaussian blur filtering + Otsu thresholding
+* Give isolectin and extravasated dextran masks areas
 
 ### Version history
 
